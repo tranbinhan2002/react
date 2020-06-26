@@ -1,0 +1,22 @@
+
+
+.App {
+  text-align: center;
+  margin-top: 100px;
+}
+.fa-home{
+  color: white;
+  font-size: 2em;
+}
+.fa-home:hover{
+  font-size: 3em;
+}
+.card-title a{
+  color: black;
+  text-decoration: none;
+}
+.card-img-top:hover
+{
+  height: 250px;
+  width: 250px;
+}

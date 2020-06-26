@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "title":"tran binh an",
+        "image":"https://scontent-xsp1-1.xx.fbcdn.net/v/t1.0-0/c0.7.206.206a/p206x206/66816501_2356043444666581_6955707984072671232_n.jpg?_nc_cat=108&_nc_sid=da31f3&_nc_oc=AQk2haIDMVZdSddkJDekHtTUei8e8zNuyrXXgzDB21e5tcCj5IZ3hKqN4ZEYNtFIRk-VRNzaI72CcMnDGwr3UqCd&_nc_ht=scontent-xsp1-1.xx&oh=17ff270a0217c5538460b3dde2498d2a&oe=5F155BE5",
+        "descition":"My name is An ,I live in HCM city",
+        "view":"50000",
+        "type_id":1
+    },
+    {
+        "id":2,
+        "title":"Nguyen Huy Tue",
+        "image":"https://scontent-xsp1-1.xx.fbcdn.net/v/t1.0-9/47427724_1557508541059209_7456753470050140160_n.jpg?_nc_cat=105&_nc_sid=174925&_nc_oc=AQnv57o2cbsPYFnBSyGZ1BI6zZRlBKngunW4bbv1qUEoEWzZPnDuk3vveRVEGKITGhZmjL4tCv-0Blk3fUxa4CUE&_nc_ht=scontent-xsp1-1.xx&oh=0b00e22f5c1caf07e408e79e72911576&oe=5F138F22",
+        "descition":"My name is Tue ,I live in HCM city",
+        "view":"50000",
+        "type_id":2
+    },
+    {
+        "id":3,
+        "title":"Đặng Thái Quốc",
+        "image":"https://scontent-xsp1-1.xx.fbcdn.net/v/t1.0-9/89722015_876420316134030_6472974817011171328_o.jpg?_nc_cat=111&_nc_sid=174925&_nc_oc=AQm_HPj7vuahAIfGijTNNBWsGSD-Xn3NeOuq9SA9TMgY80MbQ6FSMbFfkK1gTYlplRKXJKNn_zq9vEuDITOAOTiQ&_nc_ht=scontent-xsp1-1.xx&oh=580ed8fabe495812af5b992f1a71e789&oe=5F158843",
+        "descition":"My name is Khoi ,I live in HCM city",
+        "view":"50000",
+        "type_id":3
+    },
+    {
+        "id":4,
+        "title":"Le Xuan Tri",
+        "image":"https://scontent-xsp1-1.xx.fbcdn.net/v/t1.0-9/36743672_637158953305029_180794079934676992_o.jpg?_nc_cat=108&_nc_sid=19026a&_nc_oc=AQlhY98qeiwFJhayFOYaaC_v4aQC-w5lESDa5_0PnwSFresCvUQFTal48RfBM6xZ3LNmWZAhYp1t1P0XRpnEP_8s&_nc_ht=scontent-xsp1-1.xx&oh=a6da28ffd9d17ef190731801ebf1b6b8&oe=5F15037A",
+        "descition":"My name is Tri ,I live in HCM city",
+        "view":"50000",
+        "type_id":1
+    },
+    {
+        "id":5,
+        "title":"Tran Thanh Nhan",
+        "image":"https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.0-9/83444381_3101807373376707_4347728302056669184_o.jpg?_nc_cat=106&_nc_sid=09cbfe&_nc_oc=AQmHqhYu3dcysmpjGrD-boIL4ZJ-RTCwHkGRW8UM0Z9fe_-8qtYTHe7xyjWELyI249EeowVWmM84iO3HRaLZGwUp&_nc_ht=scontent.fsgn5-6.fna&oh=9201d40b7dc3a20e2f7db69a0195d061&oe=5F135360",
+        "descition":"My name is Nhan ,I live in HCM city",
+        "view":"50000",
+        "type_id":2
+    },
+    {
+        "id":6,
+        "title":"Nguyen Vinh Hien",
+        "image":"https://scontent.fsgn5-5.fna.fbcdn.net/v/t1.0-9/83713872_1098356287175009_7137266387797409792_n.jpg?_nc_cat=100&_nc_sid=174925&_nc_oc=AQmWqAP6MpMCB5RiOzkKS-d56-rplkWN4k13T8DZLnU9p8fbTpkFndXJ_lsptvBtTK4SizBzvYeNPz5CYNbls0gR&_nc_ht=scontent.fsgn5-5.fna&oh=08bb322dd9aa87f2ec04f640074a722c&oe=5F138FBE",
+        "descition":"My name is Hien ,I live in HCM city",
+        "view":"50000",
+        "type_id":3   
+    }
+]
