@@ -1,50 +1,74 @@
 [
     {
         "id":1,
-        "title":"tran binh an",
-        "image":"https://scontent-xsp1-1.xx.fbcdn.net/v/t1.0-0/c0.7.206.206a/p206x206/66816501_2356043444666581_6955707984072671232_n.jpg?_nc_cat=108&_nc_sid=da31f3&_nc_oc=AQk2haIDMVZdSddkJDekHtTUei8e8zNuyrXXgzDB21e5tcCj5IZ3hKqN4ZEYNtFIRk-VRNzaI72CcMnDGwr3UqCd&_nc_ht=scontent-xsp1-1.xx&oh=17ff270a0217c5538460b3dde2498d2a&oe=5F155BE5",
-        "descition":"My name is An ,I live in HCM city",
-        "view":"50000",
-        "type_id":1
+        "title":"Lamborghini Diablo",
+        "image":"https://i.pinimg.com/236x/0e/4d/83/0e4d83144d343e5d66f7663f7f02041b.jpg",
+        "description":"Bugatti Veyron có lẽ là giấc mơ của tất cả những người mê xe trên thế giới, nhưng cái giá phải trả để sở hữu nó khiến bạn không khỏi giật mình.",
+        "price":60000,
+        "type":1
     },
     {
         "id":2,
-        "title":"Nguyen Huy Tue",
-        "image":"https://scontent-xsp1-1.xx.fbcdn.net/v/t1.0-9/47427724_1557508541059209_7456753470050140160_n.jpg?_nc_cat=105&_nc_sid=174925&_nc_oc=AQnv57o2cbsPYFnBSyGZ1BI6zZRlBKngunW4bbv1qUEoEWzZPnDuk3vveRVEGKITGhZmjL4tCv-0Blk3fUxa4CUE&_nc_ht=scontent-xsp1-1.xx&oh=0b00e22f5c1caf07e408e79e72911576&oe=5F138F22",
-        "descition":"My name is Tue ,I live in HCM city",
-        "view":"50000",
-        "type_id":2
+        "title":"Ford Mustang",
+        "image":"https://i.pinimg.com/236x/7a/05/f0/7a05f09230911829f6dff02d561c6251.jpg",
+        "description":"Dòng xe này sở hữu nhiều chi tiết bằng sợi carbon như cánh gió đuôi, cản va trước, bộ chia gió trước, vỏ động cơ và nắp ca-pô nên chúng có thể đạt vận tốc 341km/h",
+        "price":50000,
+        "type":2
     },
     {
         "id":3,
-        "title":"Đặng Thái Quốc",
-        "image":"https://scontent-xsp1-1.xx.fbcdn.net/v/t1.0-9/89722015_876420316134030_6472974817011171328_o.jpg?_nc_cat=111&_nc_sid=174925&_nc_oc=AQm_HPj7vuahAIfGijTNNBWsGSD-Xn3NeOuq9SA9TMgY80MbQ6FSMbFfkK1gTYlplRKXJKNn_zq9vEuDITOAOTiQ&_nc_ht=scontent-xsp1-1.xx&oh=580ed8fabe495812af5b992f1a71e789&oe=5F158843",
-        "descition":"My name is Khoi ,I live in HCM city",
-        "view":"50000",
-        "type_id":3
+        "title":"Aston Martin Vanquish",
+        "image":"https://static.danhgiaxe.com/data/201525/10-volkswagen-scirocco-based-on-the-fantastic-volkswagen-gti-the-scirocco-offers-a-wide-stance-and-an-aggressive-angular-front-headlight-and-grille-combo_323.jpg",
+        "description":"Siêu xe đầu tiên của vùng Trung Đông - Lykan Hypersport do hãng siêu xe W Motors sản xuất và ra mắt năm 2013. Siêu xe từng xuất hiện trong phim bom tấn hành động Fast & Furious 7",
+        "price":20000,
+        "type":3
     },
     {
         "id":4,
-        "title":"Le Xuan Tri",
-        "image":"https://scontent-xsp1-1.xx.fbcdn.net/v/t1.0-9/36743672_637158953305029_180794079934676992_o.jpg?_nc_cat=108&_nc_sid=19026a&_nc_oc=AQlhY98qeiwFJhayFOYaaC_v4aQC-w5lESDa5_0PnwSFresCvUQFTal48RfBM6xZ3LNmWZAhYp1t1P0XRpnEP_8s&_nc_ht=scontent-xsp1-1.xx&oh=a6da28ffd9d17ef190731801ebf1b6b8&oe=5F15037A",
-        "descition":"My name is Tri ,I live in HCM city",
-        "view":"50000",
-        "type_id":1
+        "title":"Land Rover Defender",
+        "image":"https://i.pinimg.com/236x/db/2c/6c/db2c6cba9f57d327eb721bd4f0734e11.jpg",
+        "description":"Với thiết kế nội thất vô cùng sang trọng cùng với nạm đá quý, dát vàng khiến chiếc xe có giá bán lên đến 3,4 triệu USD và hãng xe có trụ sở tại Dubai chỉ sản xuất đúng 7 chiếc trên toàn thế giới",
+        "price":160000,
+        "type":1
     },
     {
         "id":5,
-        "title":"Tran Thanh Nhan",
-        "image":"https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.0-9/83444381_3101807373376707_4347728302056669184_o.jpg?_nc_cat=106&_nc_sid=09cbfe&_nc_oc=AQmHqhYu3dcysmpjGrD-boIL4ZJ-RTCwHkGRW8UM0Z9fe_-8qtYTHe7xyjWELyI249EeowVWmM84iO3HRaLZGwUp&_nc_ht=scontent.fsgn5-6.fna&oh=9201d40b7dc3a20e2f7db69a0195d061&oe=5F135360",
-        "descition":"My name is Nhan ,I live in HCM city",
-        "view":"50000",
-        "type_id":2
+        "title":"Chevrolet Corvette",
+        "image":"https://i.pinimg.com/236x/7f/2f/88/7f2f8897534e3d01fd6addf4739f786d.jpg",
+        "description":"Lamborghini Veneno Roadster được sản xuất vào năm 2013 như là 1 món quà đặc biệt để kỷ niệm chặng đường 50 năm hào hùng của Lamborghini. Chính vì vậy, bản thân Lamborghini Veneno",
+        "price":80000,
+        "type":2
     },
     {
         "id":6,
-        "title":"Nguyen Vinh Hien",
-        "image":"https://scontent.fsgn5-5.fna.fbcdn.net/v/t1.0-9/83713872_1098356287175009_7137266387797409792_n.jpg?_nc_cat=100&_nc_sid=174925&_nc_oc=AQmWqAP6MpMCB5RiOzkKS-d56-rplkWN4k13T8DZLnU9p8fbTpkFndXJ_lsptvBtTK4SizBzvYeNPz5CYNbls0gR&_nc_ht=scontent.fsgn5-5.fna&oh=08bb322dd9aa87f2ec04f640074a722c&oe=5F138FBE",
-        "descition":"My name is Hien ,I live in HCM city",
-        "view":"50000",
-        "type_id":3   
+        "title":"BMW M1",
+        "image":"https://i.pinimg.com/236x/31/ec/8b/31ec8b456b857db913f316c344c32281.jpg",
+        "description":"Siêu xe này không chỉ có thiết kế cực kỳ ấn tượng, đậm chất xe đua mà còn có số lượng xe xuất xưởng rất ít (9 chiếc). Siêu xe này có thể đạt vận tốc tối đa 353,4 km/h và chỉ cần chưa đầy 3 giây để",
+        "price":130000,
+        "type":3   
+    },
+    {
+        "id":7,
+        "title":"McLaren 720S",
+        "image":"https://www.takadada.com/wp-content/uploads/2019/07/sieu-xe-lamborghini-dat-vang-1.jpg",
+        "description":"Với thiết kế nội thất vô cùng sang trọng cùng với nạm đá quý, dát vàng khiến chiếc xe có giá bán lên đến 3,4 triệu USD và hãng xe có trụ sở tại Dubai chỉ sản xuất đúng 7 chiếc trên toàn thế giới",
+        "price":30000,
+        "type":1
+    },
+    {
+        "id":8,
+        "title":" Lamborghini Aventador S",
+        "image":"https://vnn-imgs-f.vgcloud.vn/2020/06/08/22/ferrari-enzo-1-240x160.jpg",
+        "description":"Lamborghini Veneno Roadster được sản xuất vào năm 2013 như là 1 món quà đặc biệt để kỷ niệm chặng đường 50 năm hào hùng của Lamborghini. Chính vì vậy, bản thân Lamborghini Veneno",
+        "price":70000,
+        "type":2
+    },
+    {
+        "id":9,
+        "title":"Bentley Bentayga",
+        "image":"https://image.thanhnien.vn/660/uploaded/bahung/y-ba-hung-2018/thang-8-2018/sieu-xe-trieu-do-ao/sieu-xe-nuoc-ao_thanhnien-7_dhbc.jpg",
+        "description":"Siêu xe này không chỉ có thiết kế cực kỳ ấn tượng, đậm chất xe đua mà còn có số lượng xe xuất xưởng rất ít (9 chiếc). Siêu xe này có thể đạt vận tốc tối đa 353,4 km/h và chỉ cần chưa đầy 3 giây để",
+        "price":75000,
+        "type":3   
     }
 ]

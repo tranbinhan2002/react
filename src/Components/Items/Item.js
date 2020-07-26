@@ -5,7 +5,6 @@ import {
 class Item extends Component {
     toChange = (str)=>{
         str = str.toLowerCase();     
-        // xóa dấu
         str = str.replace(/(à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ)/g, 'a');
         str = str.replace(/(è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ)/g, 'e');
         str = str.replace(/(ì|í|ị|ỉ|ĩ)/g, 'i');
@@ -13,15 +12,10 @@ class Item extends Component {
         str = str.replace(/(ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ)/g, 'u');
         str = str.replace(/(ỳ|ý|ỵ|ỷ|ỹ)/g, 'y');
         str = str.replace(/(đ)/g, 'd'); 
-        // Xóa ký tự đặc biệt
         str = str.replace(/([^0-9a-z-\s])/g, '');
-        // Xóa khoảng trắng thay bằng ký tự -
         str = str.replace(/(\s+)/g, '-');
-        // xóa phần dự - ở đầu
         str = str.replace(/^-+/g, '');
-        // xóa phần dư - ở cuối
         str = str.replace(/-+$/g, '');
-        // return
         return str;
     }
     render() {
@@ -36,7 +30,15 @@ class Item extends Component {
         <p className="card-text">{this.props.description}</p>
                   </div>
                   <div className="card-footer">
-        <small className="text-muted"><i className="fa fa-eye" aria-hidden="true"></i> : {this.props.view}</small>
+                      <div className="row">
+                          <div className="col-6">
+                          <small ><i className="fa fa-usd" aria-hidden="true"></i>{this.props.price}</small>
+                          </div>
+                          <div className="col-6">
+                          <Link to="/cart"> <i className="fa fa-cart-plus cart" aria-hidden="true"></i></Link>
+                          </div>
+                      </div>
+       
                   </div>
                   </div>
                   </div>

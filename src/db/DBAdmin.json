@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "name": "Trần Bình An",
+        "phone": "0397043536",
+        "permission": 1
+    },
+    {
+        "id": "2",
+        "name": "Nguyễn Huy Tuệ",
+        "phone": "0909090909",
+        "permission": 2
+    },
+    {
+        "id": "3",
+        "name": "Mai Xuân Trí",
+        "phone": "0808080808",
+        "permission": 2
+    },
+    {
+        "id": "4",
+        "name": "Trần Thanh Nhẫn",
+        "phone": "0606060606",
+        "permission": 2
+    },
+    {
+        "id": "5",
+        "name": "Nguyễn Vinh Hiển",
+        "phone": "0505050505",
+        "permission": 2
+    }
+]

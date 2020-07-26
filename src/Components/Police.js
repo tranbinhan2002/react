@@ -10,10 +10,10 @@ class Police extends Component {
             <div className="row">
             {
                 DB.map((value,key) => {
-                  if(value.type_id===2)
+                  if(value.type===2)
                   {
                   return (
-                    <Item key={key} id={value.id} img={value.image} title={value.title} description={value.descition} view={value.view}></Item>
+                    <Item key={key} id={value.id} img={value.image} title={value.title} description={value.description.substring(0,50)+" [...]"} price={value.price}></Item>
                   )
                   }
                   return true;

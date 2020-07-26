@@ -7,19 +7,12 @@ class Nav extends Component {
         return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div className="container">
-              <Link to="/home" className="navbar-brand" ><i className="fa fa-home" aria-hidden="true"></i></Link>
-              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon" />
-              </button>
+              <Link to="/home" className="navbar-brand" > <img className=" img-fluid logo" src="https://static.danhgiaxe.com/data/201525/6-bmw-i8-the-bmw-i8-looks-like-no-other-car-on-the-road-today_3295.jpg" alt="First slide"/></Link>
               <div className="collapse navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav ml-auto">
-                  <li className="nav-item active">
-                    <a className="nav-link" href="/home">Home
-                      <span className="sr-only">(current)</span>
-                    </a>
-                  </li>
+                <div className="nameShop">CAR STORE</div>
                   <li className="nav-item">
-                    <a className="nav-link" href="/login">Login</a>
+                    <Link to="/login" className="nav-link" >Logout</Link>
                   </li>
                 </ul>
               </div>

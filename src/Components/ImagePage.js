@@ -11,13 +11,13 @@ class ImagePage extends Component {
             </ol>
             <div className="carousel-inner" role="listbox">
               <div className="carousel-item">
-                <img className="d-block img-fluid" src="http://placehold.it/900x350" alt="First slide" />
+                <img className="d-block img-fluid" src="https://static.danhgiaxe.com/data/201525/6-bmw-i8-the-bmw-i8-looks-like-no-other-car-on-the-road-today_3295.jpg" alt="First slide" />
               </div>
               <div className="carousel-item active">
-                <img className="d-block img-fluid" src="http://placehold.it/900x350" alt="Second slide" />
+                <img className="d-block img-fluid" src="https://choixehop.com/Uploads/logos/07122014/News/20127215533-anh-dep-sieu-xe.jpg" alt="Second slide" />
               </div>
               <div className="carousel-item">
-                <img className="d-block img-fluid" src="http://placehold.it/900x350" alt="Third slide" />
+                <img className="d-block img-fluid" src="https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/02/27/xe_dua_SCG_003S(1).jpg" alt="Third slide" />
               </div>
             </div>
             <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
