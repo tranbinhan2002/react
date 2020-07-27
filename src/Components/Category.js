@@ -59,10 +59,10 @@ class Category extends Component {
                   <div className="col-lg-6">
                     <ul className="list-unstyled mb-0">
                     <li>
-                      <NavLink to="/home"activeStyle={{ fontWeight: "bold", color: "blue"}}>Home</NavLink>
+                      <NavLink to="/home" activeStyle={{ fontWeight: "bold", color: "blue"}}>Home</NavLink>
                       </li>
                       <li>
-                      <NavLink to="/news"activeStyle={{ fontWeight: "bold", color: "blue"}}>Lamborgini</NavLink>
+                      <NavLink to="/news" activeStyle={{ fontWeight: "bold", color: "blue"}}>Lamborgini</NavLink>
                       </li>
                      
                     </ul>
@@ -70,10 +70,10 @@ class Category extends Component {
                   <div className="col-lg-6">
                     <ul className="list-unstyled mb-0">
                       <li>
-                      <NavLink to="/police"activeStyle={{ fontWeight: "bold", color: "blue"}}>Rover</NavLink>
+                      <NavLink to="/police" activeStyle={{ fontWeight: "bold", color: "blue"}}>Rover</NavLink>
                       </li>
                       <li>
-                      <NavLink to="/fashion"activeStyle={{ fontWeight: "bold", color: "blue"}}>BMW</NavLink>
+                      <NavLink to="/fashion" activeStyle={{ fontWeight: "bold", color: "blue"}}>BMW</NavLink>
                       </li>
                     </ul>
                   </div>
@@ -84,13 +84,13 @@ class Category extends Component {
               <h5 className="card-header">filter products</h5>
               <div className="card-body">
               <li>
-              <NavLink to="/low"activeStyle={{ fontWeight: "bold", color: "yellow"}}>10000$ - 50000$</NavLink>
+              <NavLink to="/low" activeStyle={{ fontWeight: "bold", color: "yellow"}}>10000$ - 50000$</NavLink>
               </li>
               <li>
-              <NavLink to="/average"activeStyle={{ fontWeight: "bold", color: "yellow"}}>50000$ - 100000$</NavLink>
+              <NavLink to="/average" activeStyle={{ fontWeight: "bold", color: "yellow"}}>50000$ - 100000$</NavLink>
               </li>
               <li>
-              <NavLink to="/expensive"activeStyle={{ fontWeight: "bold", color: "yellow"}}><i className="fa fa-chevron-right" aria-hidden="true"></i> 100000$</NavLink>
+              <NavLink to="/expensive" activeStyle={{ fontWeight: "bold", color: "yellow"}}><i className="fa fa-chevron-right" aria-hidden="true"></i> 100000$</NavLink>
               </li>
               </div>
             </div>

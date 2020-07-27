@@ -36,6 +36,21 @@
   margin-top: 10px;
   font-weight: bold;
 }
+@keyframes chayngang{
+  0%{
+    transform: translateX(-200px);
+  }
+  50%{
+    transform: translateX(200px);
+  }
+  100%{
+    transform: translateX(-200px);
+  }
+}
+.jumbotron-heading
+{
+  animation: chayngang 10s infinite;
+}
 @keyframes phongto
 {
     from{
