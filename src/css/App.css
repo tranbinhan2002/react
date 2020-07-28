@@ -10,6 +10,12 @@
   height: 50px;
   border-radius: 50%;
 }
+
+#code{
+  height: 100px;
+  width: 100px;
+  margin-left: 35%;
+}
 .cart1{
   font-size: 1.5em;
   color: rgb(198, 219, 177);
@@ -113,7 +119,7 @@
   height: 70px;
 }
 .addproduct{
-  font-size: 2em;
+  font-size: 1em;
   color: blue;
 }
 .card-body.add{
@@ -165,7 +171,7 @@
   height: 100px;
 }
 #map iframe{
-  width: 350px;
+  width: 330px;
 }
 .row{
   display: flex;
@@ -174,12 +180,74 @@
     margin-right: 0px;
     margin-left: 0px;
 }
-.cartfix{
+
+
+.menu{
+  top: 200px;
+  right: 50px;
   position: fixed;
-  bottom: 50px;
-  right: 20px;
-  font-size: 3em;
+  font-size: 2.5em;
+}
+.menu ul{
+  list-style: none;
+  margin: 0;
+}
+.menu ul li{
+  position: relative;
+}
+.menu ul ul{
+  height: 50px;
+  width: 0px;
+  font-weight: bold;
+  visibility: hidden;
+  position: absolute;
+  opacity: 0;
+  top : 0;
+  right: 100%;
+  background-color: slategray;
+  font-size: 0em;
+  border-radius: 5px;
+  transition: 1s;
+}
+.fixcart{
   color: black;
+  opacity: 0.3;
+}
+.fixcart:hover{
+  color: blue;
+  opacity: 1;
+}
+.menu ul li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+  width: 150px;
+  font-size: 0.5em;
+}
+.menu ul li:hover {
+  color: blue;
+  top : 5px;
+}
+.menu ul li .fa
+{
+  text-decoration: none;
+}
+.fa-envelope-open-o{
+  opacity: 0.3;
+}
+.fa-envelope-open-o:hover{
+  opacity: 1;
+}
+.fa-camera{
+  opacity: 0.3;
+}
+.fa-camera:hover{
+  opacity: 1;
+}
+.fa-comments-o{
+  opacity: 0.3;
+}
+.fa-comments-o:hover{
+  opacity: 1;
 }
 
 

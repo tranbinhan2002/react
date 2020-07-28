@@ -59,7 +59,7 @@ class Category extends Component {
                   <div className="col-lg-6">
                     <ul className="list-unstyled mb-0">
                     <li>
-                      <NavLink to="/home" activeStyle={{ fontWeight: "bold", color: "blue"}}>Home</NavLink>
+                      <NavLink to="/home" activeStyle={{ fontWeight: "bold", color: "red"}}>Home</NavLink>
                       </li>
                       <li>
                       <NavLink to="/news" activeStyle={{ fontWeight: "bold", color: "blue"}}>Lamborgini</NavLink>
@@ -116,7 +116,11 @@ class Category extends Component {
               <iframe title="ifreame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4786145912108!2d106.75574501428758!3d10.851155160778305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527bd532d45d9%3A0x6b46595d312dcffe!2zNTMgVsO1IFbEg24gTmfDom4sIExpbmggQ2hp4buDdSwgVGjhu6cgxJDhu6ljLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1595300605330!5m2!1svi!2s"    aria-hidden="false"></iframe>
               </div>
             </div>
-          </div>          
+              <div id="code">
+              <img className="d-block img-fluid" src="https://giadinh.mediacdn.vn/2017/v3-1490286612318.png" alt="First slide"/>
+            </div>
+          </div> 
+                  
         );
     }
 }
